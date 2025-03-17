@@ -20,7 +20,7 @@ while True:
                 f"Bem vindo!</h1></body></html> \r\n")
     conn.sendall(response.encode())
     print(f'Mensagem enviada com sucesso: "{response}"')
-    conn.close()
 
+conn.close()
 print('Conexão encerrada')
 
